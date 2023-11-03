@@ -2,7 +2,8 @@ module.exports = [
     {
         type: 'input',
         name: 'text',
-        message: 'Please enter text for the logo (Max of 3 characters)'
+        message: 'Please enter text for the logo (Max of 3 characters)',
+        validate: (text) => text.length <=3 || "Text must not exceed 3 characters"
     },
     {
         type: 'input',
