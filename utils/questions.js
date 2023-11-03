@@ -13,7 +13,7 @@ module.exports = [
         type: 'list',
         name: 'shape',
         message: 'Please select a background shape',
-        choices: ['Triangle', 'Square', 'Circle']
+        choices: ['triangle', 'square', 'circle']
     },
     {
         type: 'input',
