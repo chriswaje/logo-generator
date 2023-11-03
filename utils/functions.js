@@ -4,22 +4,17 @@ module.exports = {
         if (shape === 'circle') {
             return `<svg version="1.1" width="300" height="200" xmlns="http://www.w3.org/2000/svg">
             <circle cx="150" cy="100" r="80" fill="${shapeColor}" />
-            <${text} x="150" y="125" font-size="60" text-anchor="middle" fill="${textColor}">SVG</text>
+            <text x="150" y="140" font-size="100" text-anchor="middle" fill="${textColor}">${text}</text>
           </svg>`
         } else if (shape === 'square') {
             return `<svg version="1.1" width="300" height="200" xmlns="http://www.w3.org/2000/svg">
-            <rect x="10" y="10" width="30" height="30" fill="${shapeColor}" />
-            <${text} x="150" y="125" font-size="60" text-anchor="middle" fill="${textColor}">SVG</text>
+            <rect x="25" y="25" width="150" height="150" fill="${shapeColor}" />
+            <text x="100" y="130" font-size="80" text-anchor="middle" fill="${textColor}">${text}</text>
             </svg>`
         } else if (shape === 'triangle') {
             return `<svg version="1.1" width="300" height="200" xmlns="http://www.w3.org/2000/svg">
-            <svg width="100%" x="0">
-            <polygon points="0 25,50 50,100 25,100 50,0 50" fill="${shapeColor}"></polygon>
-        </svg>
-        <svg height="200px" width="50%" x="50%">
-            <polygon points="0, 50, 220, -50, 60, 0" fill="${shapeColor}"></polygon>
-        </svg>
-        <${text} x="150" y="125" font-size="60" text-anchor="middle" fill="${textColor}">SVG</text>
+            <polygon points="225, 10 100, 210 350, 210" fill="${shapeColor}" />
+        <text x="150" y="125" font-size="60" text-anchor="middle" fill="${textColor}">${text}</text>
             </svg>`
         }
     }
