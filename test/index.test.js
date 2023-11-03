@@ -21,5 +21,5 @@ describe('Render', () => {
         <circle cx="150" cy="100" r="80" fill="red" />
         <text x="150" y="140" font-size="100" text-anchor="middle" fill="black">WOW</text>
       </svg>`)
-    })
+    });
 })
