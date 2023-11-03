@@ -4,7 +4,7 @@ describe('Render', () => {
 
     it('should return an svg string for a triangle logo when triangle is selected', () => {
         const shape = new Triangle('red', 'WOW', 'black');
-        expect(shape.render()).toEqual(`<svg version="1.1" width="300" height="200" xmlns="http://www.w3.org/2000/svg"><polygon points="150, 18 244, 182 56, 182" fill="red" /><text x="150" y="125" font-size="60" text-anchor="middle" fill="black">WOW</text></svg>`)
+        expect(shape.render()).toEqual(`<svg version="1.1" width="300" height="200" xmlns="http://www.w3.org/2000/svg"><polygon points="150, 18 244, 182 56, 182" fill="red" /><text x="150" y="150" font-size="80" text-anchor="middle" fill="black">WOW</text></svg>`)
     });
 
     it('should return an svg string for a square when square is selected', () => {
