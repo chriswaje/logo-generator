@@ -27,6 +27,10 @@ NodeJS for the open-source server environment. NPM for the software registry, In
 
 ## Link(s)
 
+https://github.com/chriswaje/logo-generator (URL to project repository)
+
+https://drive.google.com/file/d/1Din-aoivIUjsdvuz9ByPDxF8FLBVfTbi/view?usp=sharing (URL for video demonstration)
+
 ## Images
 
 ![](./images/sample-logo.png)
